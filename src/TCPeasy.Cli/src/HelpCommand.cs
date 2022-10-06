@@ -26,8 +26,8 @@ namespace TCPeasy.Cli
 usage: tcpeasy [-v | -s] <command> [<args>]
 {commandList}
 EXAMPLE
-  tcpeasy listen 1234
-  tcpeasy connect localhost 1234
+  tcpeasy listen 12345
+  tcpeasy connect localhost 12345
 ");
         }
     }
