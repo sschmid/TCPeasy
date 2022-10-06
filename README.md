@@ -8,6 +8,12 @@ messages from your TCP data stream.
 client mode and is using the TCP message parser to allow you to send UTF8
 messages from a server to multiple clients or from a client to a server.
 
+# Install
+
+## nuget
+- https://www.nuget.org/packages/TCPeasy
+- https://www.nuget.org/packages/TCPeasy.Cli
+
 # Quick Start
 
 Check out the `TCPeasy.Cli` project which contains the `ListenCommand` and
