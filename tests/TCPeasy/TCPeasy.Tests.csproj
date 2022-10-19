@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../src/TCPeasy.csproj" />
+    <ProjectReference Include="../../src/TCPeasy/TCPeasy.csproj" />
   </ItemGroup>
 
 </Project>
