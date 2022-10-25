@@ -22,6 +22,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add `TCPeasy`
 
+--------------------------------------------------------------------------------
+
+TCPeasy has been extracted from the [DesperateDevs](https://github.com/sschmid/DesperateDevs) project.
+Please see previous changelog here:
+- https://github.com/sschmid/DesperateDevs/blob/main/CHANGELOG.md
+
 [Unreleased]: https://github.com/sschmid/TCPeasy/compare/TCPeasy.Cli/1.1.1...HEAD
 [TCPeasy.Cli/1.1.1]: https://github.com/sschmid/TCPeasy/compare/TCPeasy.Cli/1.1.0...TCPeasy.Cli/1.1.1
 [TCPeasy.Cli/1.1.0]: https://github.com/sschmid/TCPeasy/compare/TCPeasy.Cli/1.0.0...TCPeasy.Cli/1.1.0
