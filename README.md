@@ -8,11 +8,19 @@ messages from your TCP data stream.
 client mode and is using the TCP message parser to allow you to send UTF8
 messages from a server to multiple clients or from a client to a server.
 
+[![CI](https://github.com/sschmid/TCPeasy/actions/workflows/ci.yml/badge.svg)](https://github.com/sschmid/TCPeasy/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/sschmid/TCPeasy/badge.svg)](https://coveralls.io/github/sschmid/TCPeasy)
+[![Nuget](https://img.shields.io/nuget/dt/TCPeasy)](https://www.nuget.org/packages/TCPeasy)
+[![License: MIT](https://img.shields.io/github/license/sschmid/TCPeasy)](https://github.com/sschmid/TCPeasy/blob/main/LICENSE.md)
+[![Twitter](https://img.shields.io/twitter/follow/s_schmid)][twitter-sschmid]
+
 # Install
 
-## nuget
-- https://www.nuget.org/packages/TCPeasy
-- https://www.nuget.org/packages/TCPeasy.Cli
+|             | NuGet                                                                                              | Unity                                                                                                                                                                   |
+|:------------|:---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TCPeasy     | [![Nuget](https://img.shields.io/nuget/v/TCPeasy)](https://www.nuget.org/packages/TCPeasy)         | [![openupm](https://img.shields.io/npm/v/com.sschmid.tcpeasy?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.sschmid.tcpeasy) |
+| TCPeasy.Cli | [![Nuget](https://img.shields.io/nuget/v/TCPeasy.Cli)](https://www.nuget.org/packages/TCPeasy.Cli) |                                                                                                                                                                         |
+
 
 # Quick Start
 
@@ -37,7 +45,7 @@ Connect clients to an IP address on a specific port, e.g. `localhost` on port `1
 dotnet run --project src/TCPeasy.Cli/src/TCPeasy.Cli.csproj connect localhost 12345
 ```
 
-![TCPeasy-Server-Clients](readme/TCPeasy-Server-Clients.png)
+![TCPeasy-Server-Clients](https://github.com/sschmid/TCPeasy/raw/main/readme/TCPeasy-Server-Clients.png)
 
 Use the `-v` option for verbose output
 
