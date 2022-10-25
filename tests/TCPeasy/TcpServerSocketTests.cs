@@ -370,7 +370,15 @@ namespace TCPeasy.Tests
         public void Dispose()
         {
             _output.WriteLine("Dispose");
-            Disconnect();
+            try
+            {
+                _server.Disconnect();
+            }
+            catch (Exception)
+            {
+                // ignored
+            }
+
             Wait();
             Logger.GlobalLogLevel = LogLevel.On;
             Logger.ClearAppenders();
