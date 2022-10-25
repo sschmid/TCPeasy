@@ -27,7 +27,7 @@ messages from a server to multiple clients or from a client to a server.
 Check out the `TCPeasy.Cli` project which contains the `ListenCommand` and
 the `ConnectCommand` which starts the console app in either server or client mode.
 
-### See [TCPeasy.Cli](https://github.com/sschmid/TCPeasy/tree/main/src/TCPeasy.Cli/src)
+### See [TCPeasy.Cli](https://github.com/sschmid/TCPeasy/tree/main/src/TCPeasy.Cli)
 
 # Demo
 
@@ -36,13 +36,13 @@ Run `TCPeasy.Cli` and give it a try!
 Start the server by listening on a port, e.g. `12345`
 
 ```
-dotnet run --project src/TCPeasy.Cli/src/TCPeasy.Cli.csproj listen 12345
+dotnet run --project src/TCPeasy.Cli/TCPeasy.Cli.csproj listen 12345
 ```
 
 Connect clients to an IP address on a specific port, e.g. `localhost` on port `12345`
 
 ```
-dotnet run --project src/TCPeasy.Cli/src/TCPeasy.Cli.csproj connect localhost 12345
+dotnet run --project src/TCPeasy.Cli/TCPeasy.Cli.csproj connect localhost 12345
 ```
 
 ![TCPeasy-Server-Clients](https://github.com/sschmid/TCPeasy/raw/main/readme/TCPeasy-Server-Clients.png)
@@ -50,11 +50,11 @@ dotnet run --project src/TCPeasy.Cli/src/TCPeasy.Cli.csproj connect localhost 12
 Use the `-v` option for verbose output
 
 ```
-dotnet run --project src/TCPeasy.Cli/src/TCPeasy.Cli.csproj -- listen -v 12345
+dotnet run --project src/TCPeasy.Cli/TCPeasy.Cli.csproj -- listen -v 12345
 ```
 
 ```
-dotnet run --project src/TCPeasy.Cli/src/TCPeasy.Cli.csproj -- connect -v localhost 12345
+dotnet run --project src/TCPeasy.Cli/TCPeasy.Cli.csproj -- connect -v localhost 12345
 ```
 
 # Maintainer(s)
