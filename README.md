@@ -16,10 +16,10 @@ messages from a server to multiple clients or from a client to a server.
 
 # Install
 
-|             | NuGet                                                                                              | Unity                                                                                                                                                                   |
-|:------------|:---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| TCPeasy     | [![Nuget](https://img.shields.io/nuget/v/TCPeasy)](https://www.nuget.org/packages/TCPeasy)         | [![openupm](https://img.shields.io/npm/v/com.sschmid.tcpeasy?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.sschmid.tcpeasy) |
-| TCPeasy.Cli | [![Nuget](https://img.shields.io/nuget/v/TCPeasy.Cli)](https://www.nuget.org/packages/TCPeasy.Cli) |                                                                                                                                                                         |
+|             | NuGet                                                                                              | Unity Packages on [OpenUPM](https://openupm.com)                                                                                                                                    |
+|:------------|:---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TCPeasy     | [![Nuget](https://img.shields.io/nuget/v/TCPeasy)](https://www.nuget.org/packages/TCPeasy)         | [![openupm](https://img.shields.io/npm/v/com.sschmid.tcpeasy?label=com.sschmid.tcpeasy&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.sschmid.tcpeasy) |
+| TCPeasy.Cli | [![Nuget](https://img.shields.io/nuget/v/TCPeasy.Cli)](https://www.nuget.org/packages/TCPeasy.Cli) |                                                                                                                                                                                     |
 
 
 # Quick Start
