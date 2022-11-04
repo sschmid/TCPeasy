@@ -21,6 +21,7 @@ messages from a server to multiple clients or from a client to a server.
 | TCPeasy     | [![Nuget](https://img.shields.io/nuget/v/TCPeasy)](https://www.nuget.org/packages/TCPeasy)         | [![openupm](https://img.shields.io/npm/v/com.sschmid.tcpeasy?label=com.sschmid.tcpeasy&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.sschmid.tcpeasy) |
 | TCPeasy.Cli | [![Nuget](https://img.shields.io/nuget/v/TCPeasy.Cli)](https://www.nuget.org/packages/TCPeasy.Cli) |                                                                                                                                                                                     |
 
+Automated Unity Package Releases: https://github.com/sschmid/com.sschmid.tcpeasy
 
 # Quick Start
 
