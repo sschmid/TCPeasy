@@ -385,6 +385,6 @@ namespace TCPeasy.Tests
             Logger.ClearLoggers();
         }
 
-        static void Wait() => System.Threading.Thread.Sleep(50);
+        static void Wait() => System.Threading.Thread.Sleep(200);
     }
 }
